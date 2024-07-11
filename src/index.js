@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import FileComponent from './fileSystem/FileComponent';
+// import FileAppender from './fileSystem/FileAppender';
+import FileAppendServer from './fileSystem/FileAppendServer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    
+    {/* <FileAppender />
+    <FileComponent /> */}
+
+    <FileAppendServer/>
+        <App />
   </React.StrictMode>
 );
 
